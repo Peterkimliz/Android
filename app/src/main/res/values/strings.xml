@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">i-Explore</string>
+    <string name="invalid_activityname">Please enter Activity name</string>
+    <string name="activityname">please enter Activity Name</string>
+    <string name="date">please enter date</string>
+    <string name="reportername">Please enter reporter name</string>
+</resources>

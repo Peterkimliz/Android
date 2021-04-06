@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp">
+
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/activityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activit name"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/locationName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/dateName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/timeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/reporterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reporter"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/viewbutton"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/verticals"/>
+
+
+
+</LinearLayout>
+
+
+    </RelativeLayout>
+
